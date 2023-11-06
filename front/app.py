@@ -29,4 +29,4 @@ def get_email_data():
         return "No data found in the collection"
     
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')  # Change the port to 5001
+    app.run()  # Change the port to 5001
